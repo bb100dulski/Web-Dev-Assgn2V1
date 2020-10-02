@@ -1,0 +1,161 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: darkred;
+}
+
+section {
+    background-color: white;
+    color: red;
+    float: left;
+    width: 75%;
+    display: flow-root;
+    position: static;
+}
+
+aside  {
+    background-image: linear-gradient(red, white);
+    float: right;
+    width: 25%;
+    height: inherit;
+    position: static;
+}
+
+header  {
+    text-align: center;
+    padding:0;
+    margin: 0;
+    background-color: white;
+    color: red;
+    font-family: cursive;
+}
+
+header img  {
+    height: 7%;
+    width: 7%;
+    display: inline;
+    text-align: left;
+}
+
+body    {
+    background-image: linear-gradient(white, red);
+}
+
+aside img {
+    height: 8.45em;
+    width: 8.45em;
+    display: inline;
+    position: static;
+}
+
+#container (max-width = 500px;) {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer  {
+    background-image: repeating-radial-gradient(white,red);
+    border: .5px solid white;
+    display: inline-table;
+    width: 100%;
+    color: darkred;
+    text-align: center;
+}
+
+footer img  {
+    width: 1%;
+    height: 1%;
+}
+
+article {
+    background-image: repeating-linear-gradient(white,red);
+    text-align: center;
+}
+
+iframe  {
+    margin: 2%;
+}
+
+main    {
+    background-color: white;
+    color: red;
+    display: grid;
+    text-align: center;
+}
+
+#head   {
+    background-color: white;
+    color: darkred;
+    display: grid;
+    text-align: center;
+}
+table   {
+    border-spacing: 5px;
+}
+
+table, th, td   {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td  {
+    padding: 15px;
+}
+
+tr:nth-of-type(even)    {
+    background-color: white;
+    color: red;
+}
+
+tr:nth-of-type(odd) {
+    background-color: red;
+    color: white;
+}
+
+caption {
+    background-color: red;
+    color: white;
+}
+
+th  {
+    background-color: darkred;
+    text-decoration: underline;
+}
+
+iframe  {
+    border: 0px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+form    {
+    background-color: white;
+    color: red;
+    text-align: justify;
+    
+}
